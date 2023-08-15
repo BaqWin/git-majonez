@@ -1,0 +1,55 @@
+  450  mkdir git-majonez
+  451  cd git-majonez/
+  452  touch main.cpp
+  453  vim main.cpp 
+  454  git status
+  455  git init
+  456  git status
+  457  git add .
+  458  git commit -m "Initial commit"
+  459  git log
+  460  vim main.cpp 
+  461  git status
+  462  git add .
+  463  git commit -m "Farewell changed"
+  464  git remote add origin https://github.com/BaqWin/git-majonez.git
+  465  git push -u origin master
+  466  git branch cs
+  467  git branch
+  468  git checkout cs
+  469  git branch
+  470  git log
+  471  git restore 73716b
+  472  git reset 73716b
+  473  git log
+  474  cat main.cpp 
+  475  git restore main.cpp 
+  476  cat main.cpp '
+  477  cat main.cpp 
+  478  git status
+  479  vim main.cpp 
+  480  git status
+  481  git add .
+  482  git commit -m "Greetings"
+  483  git push origin cs
+  484  git branch master
+  485  git checkout master
+  486  git branch
+  487  git status
+  488  cat main.cpp 
+  489  git log
+  490  clear
+  491  git merge cs master
+  492  git status
+  493  vim main.cpp 
+  494  cat main.cpp 
+  495  git status
+  496  git add .
+  497  git commit -m "Merge branch 'cs'"
+  498  git log
+  499  history
+  500  history | tail -n50 > history.txt
+  501  cat history.txt 
+  502  history | tail -n52 > history.txt
+  503  cat history.txt 
+  504  history | tail -n55 > history.txt
